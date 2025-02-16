@@ -31,7 +31,7 @@ list<Petshop>::iterator searchID(list<Petshop>& llist, string id){
             it++;
         }
     }
-    cout << found;
+    // cout << found;
     return it; 
 }
 
