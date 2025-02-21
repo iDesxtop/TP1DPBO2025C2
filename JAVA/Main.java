@@ -112,33 +112,33 @@ public class Main {
                     }
                     break;
                 case 4:
-                if(llist.isEmpty()){
-                    System.out.println("Database Masih Kosong!");
-                }else{
-                    System.out.println("Masukkan ID Barang yang akan Dihapus!");
-                    id = sc.next();
-                    int index = searchID(llist, id);
-                    if(index == -1){
-                        System.out.println("Barang dengan ID: " + id + " Tidak ditemukan!");
+                    if(llist.isEmpty()){
+                        System.out.println("Database Masih Kosong!");
                     }else{
-                        llist.remove(index);
+                        System.out.println("Masukkan ID Barang yang akan Dihapus!");
+                        id = sc.next();
+                        int index = searchID(llist, id);
+                        if(index == -1){
+                            System.out.println("Barang dengan ID: " + id + " Tidak ditemukan!");
+                        }else{
+                            llist.remove(index);
+                        }
                     }
-                }
                     break;
                 case 5:
-                if(llist.isEmpty()){
-                    System.out.println("Database Masih Kosong!");
-                }else{
-                    System.out.println("Masukkan Nama Barang yang Akan Dicari!");
-                    nama = sc.next();
-                    int index = searchNama(llist, nama);
-                    if(index == -1){
-                        System.out.println("Barang dengan Nama: " + nama + " Tidak ditemukan!");
+                    if(llist.isEmpty()){
+                        System.out.println("Database Masih Kosong!");
                     }else{
-                        Petshop found = llist.get(index);
-                        System.out.println(found.getId() + " | " + found.getNama() + " | " + found.getKategori() + " | " + found.getHarga());
+                        System.out.println("Masukkan Nama Barang yang Akan Dicari!");
+                        nama = sc.next();
+                        int index = searchNama(llist, nama);
+                        if(index == -1){
+                            System.out.println("Barang dengan Nama: " + nama + " Tidak ditemukan!");
+                        }else{
+                            Petshop found = llist.get(index);
+                            System.out.println(found.getId() + " | " + found.getNama() + " | " + found.getKategori() + " | " + found.getHarga());
+                        }
                     }
-                }
                     break;
                 default:
                     break;
