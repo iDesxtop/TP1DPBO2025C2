@@ -1,5 +1,5 @@
 # Janji
-Saya Muhammad Alvinza dengan NIM 2304879 mengerjakan Latihan Modul 1 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Muhammad Alvinza dengan NIM 2304879 mengerjakan TP1 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ### Dokumentasi
 ![Menambahkan Barang](https://github.com/user-attachments/assets/ef8cf058-52b0-426f-8ad4-8fe3dec9ea61)
