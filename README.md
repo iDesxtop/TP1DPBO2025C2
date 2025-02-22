@@ -1,7 +1,7 @@
 # Janji
 Saya Muhammad Alvinza dengan NIM 2304879 mengerjakan Latihan Modul 1 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-### Dokumentasi CPP
+### Dokumentasi
 ![Menambahkan Barang](https://github.com/user-attachments/assets/ef8cf058-52b0-426f-8ad4-8fe3dec9ea61)
 ![Penghapusan Data](https://github.com/user-attachments/assets/26127c16-7d99-4190-ac22-c91ab2329266)
 ![Mengubah Data](https://github.com/user-attachments/assets/154c530e-41db-4e80-8965-06a0cf3ef6c5)
